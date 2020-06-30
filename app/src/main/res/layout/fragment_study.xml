@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/backschool_iv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@mipmap/background" />
+
+    <com.zc.xxj.view.HVScrollView
+        android:id="@+id/hvscrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:id="@+id/layout_zone"
+            android:layout_width="400dp"
+            android:layout_height="600dp"
+            android:orientation="horizontal">
+
+        </RelativeLayout>
+    </com.zc.xxj.view.HVScrollView>
+
+</RelativeLayout>

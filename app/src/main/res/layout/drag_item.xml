@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:autofit="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/btn_bg_def">
+
+    <me.grantland.widget.AutofitTextView
+        android:id="@+id/tv_text"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:singleLine="true"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingRight="2dp"
+        android:textSize="13sp"
+        autofit:minTextSize="8sp"/>
+
+    <ImageView
+        android:id="@+id/tag_control"
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="2dp"
+        android:src="@mipmap/close"
+        android:scaleType="centerInside" />
+
+</LinearLayout>

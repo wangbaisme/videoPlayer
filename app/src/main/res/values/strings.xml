@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">兴学记</string>
+
+    <string name="playback_failed">播放失败</string>
+    <string name="data_interrupt">数据中断</string>
+    <string name="s_over_get">s后获取</string>
+    <string name="get_verification_code">获取验证码</string>
+    <string name="the_mobile_number_has_been_registered_please_re_enter">该手机号码已被注册，请重新输入</string>
+    <string name="verification_passed">验证通过</string>
+    <string name="please_enter_the_correct_number">请输入正确号码</string>
+    <string name="number_is_null">号码不能为空</string>
+    <string name="verification_code_is_null">验证码不能为空</string>
+    <string name="registration_succeed">注册成功</string>
+
+    <string name="button_control_edit">编辑</string>
+    <string name="button_control_complete">完成</string>
+
+    <string name="search_text_is_null">搜索内容不能为空</string>
+
+    <string name="please_agree_agreement">请先阅读并勾选同意协议</string>
+    <string name="account_not_allow_null">账户不能为空</string>
+    <string name="password_not_allow_null">密码不能为空</string>
+    <string name="password_not_allow_length_less_than_8">密码不能少于8位</string>
+    <string name="phone_not_allow_null">手机号不能为空</string>
+    <string name="code_not_allow_null">验证码不能为空</string>
+    <string name="error_to_verification_password">两次输入密码不一致</string>
+
+    <string name="input_pwd_dialog_tip">请输入密码</string>
+    <string name="search_toolbar_cancel">取消</string>
+    <string name="input_pwd_dialog_confirm">确认</string>
+
+    <string name="updateNote">发现新版本，是否更新？</string>
+    <string name="mustUpdate">当前版本过低，请更新使用！</string>
+</resources>

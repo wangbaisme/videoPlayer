@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingDefaultResource">
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="color_blue">#0000ff</color>
+    <color name="color_green">#45aa56</color>
+    <color name="color_gray">#c3c3c3</color>
+
+    <color name="color_e3e3e3">#e3e3e3</color>
+
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="color_4EA6FD">#4EA6FD</color>
+    <color name="color_82000000">#82000000</color>
+    <color name="color_33ffffff">#33ffffff</color>
+
+    <color name="color_theme">#F03F36</color>
+
+    <color name="color_flow_text">#FF4081</color>
+    <color name="color_flow_line">#ADADAD</color>
+    <color name="color_flow_bg">#c5cae9</color>
+
+    <color name="backgroundColor">#fff</color>
+<!--    <color name="firstPathColor">#82e6c9</color>-->
+<!--    <color name="centerPathColor">#64ffffff</color>-->
+<!--    <color name="secondPathColor">#0451EA</color>-->
+    <color name="firstPathColor">#000</color>
+    <color name="centerPathColor">#64ffffff</color>
+    <color name="secondPathColor">#c2c2c2</color>
+
+    <color name="color_56c3c3c3">#56c3c3c3</color>
+
+    <color name="common_line_color">#eAEAEA</color>
+    <color name="tv_title_color">#2B2D38</color>
+    <color name="btn_common_color">#A5ACBC</color>
+</resources>

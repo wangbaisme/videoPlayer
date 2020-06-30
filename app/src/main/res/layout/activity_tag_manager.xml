@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tag_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的频道"
+            android:textSize="15sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tag_title"
+            android:layout_alignBaseline="@+id/tag_title"
+            android:layout_marginLeft="15dp"
+            android:text="长按进行编辑"
+            android:textSize="12sp"
+            android:textColor="@color/color_gray"/>
+        <TextView
+            android:id="@+id/btn_control"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="完成"
+            android:paddingTop="2dp"
+            android:paddingBottom="1dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="12sp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/btn_sel"
+            android:textColor="@color/black"/>
+    </RelativeLayout>
+
+    <com.zc.xxj.view.DragGridView
+        android:id="@+id/added_drag_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@null"
+        android:horizontalSpacing="10dp"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="4"
+        android:padding="5dp"
+        android:verticalSpacing="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="频道推荐"
+        android:textSize="15sp"
+        android:textColor="@color/black"/>
+
+    <com.zc.xxj.view.DragGridView
+        android:id="@+id/not_added_drag_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@null"
+        android:horizontalSpacing="10dp"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="4"
+        android:padding="5dp"
+        android:verticalSpacing="10dp" />
+
+</LinearLayout>

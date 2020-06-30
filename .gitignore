@@ -1,0 +1,8 @@
+.gradle
+.idea
+gradle
+*.iml
+build
+local.properties
+xingxueji_android
+release

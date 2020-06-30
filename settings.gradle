@@ -1,0 +1,2 @@
+include ':app', ':ijkplayer', ':autoSizeTextView'
+rootProject.name='xxj'

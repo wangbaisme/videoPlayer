@@ -1,0 +1,95 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="itemTabLayoutStyle" parent="Base.Widget.Design.TabLayout">
+        <item name="tabBackground">@null</item>
+        <item name="tabIndicatorColor">@color/white</item>
+        <item name="tabIndicatorHeight">2dp</item>
+        <item name="tabSelectedTextColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="mainTabLayoutStyle" parent="Base.Widget.Design.TabLayout">
+        <item name="tabBackground">@null</item>
+        <item name="tabIndicatorColor">@color/transparent</item>
+        <item name="tabIndicatorHeight">0dp</item>
+        <item name="tabSelectedTextColor">@color/color_green</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="searchEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/edittext_bg_def</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_marginRight">50dp</item>
+        <item name="android:layout_marginLeft">50dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:hint">搜索</item>
+        <item name="android:drawableLeft">@mipmap/search</item>
+        <item name="android:imeOptions">actionSearch</item>
+    </style>
+
+    <style name="exchangeEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/edittext_bg_def</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:hint">兑换码</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="exchangeButtom" parent="Widget.AppCompat.TextView">
+        <item name="android:background">@drawable/btn_sel</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="DialogAlert" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <!--  android:backgroundDimEnabled，设置为true时候，整个Dialog的大背景就是半透明的黑色，如果设置为false就是全透明-->
+    </style>
+
+    <style name="seriesCoursesTextView" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="BottomSheetStyle" parent="Theme.Design.Light.BottomSheetDialog">
+            <item name="android:windowIsFloating">false</item>
+            <item name="android:windowSoftInputMode">adjustResize</item>
+            <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+</resources>

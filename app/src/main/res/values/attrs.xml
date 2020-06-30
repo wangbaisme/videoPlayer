@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="verticalProgress">
+        <attr name="progress_radius" format="dimension" />
+        <attr name="progress_border_width" format="dimension" />
+        <attr name="progress_gradient_enable" format="boolean" />
+        <attr name="progress_border_enable" format="boolean" />
+        <attr name="progress_start_color" format="color" />
+        <attr name="progress_solid_color" format="color" />
+        <attr name="progress_end_color" format="color" />
+        <attr name="progress_border_color" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="FlowLayout">
+        <attr name="flowLayoutRadius" format="dimension"/>
+        <attr name="flowLayoutTextColor" format="color"/>
+        <attr name="flowLayoutTextColorSelector" format="color"/>
+        <attr name="flowLayoutTextSize" format="dimension"/>
+        <attr name="flowLayoutLineColor" format="color"/>
+        <attr name="flowLayoutLineWidth" format="dimension"/>
+        <attr name="flowLayoutBackgroundColor" format="color"/>
+        <attr name="flowLayoutBackgroundColorSelector" format="color"/>
+        <attr name="flowLayoutDeleteBtnColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="RecordWaveView">
+        <attr name="backgroundColor" format="color"/>
+        <attr name="firstPathColor" format="color"/>
+        <attr name="centerPathColor" format="color"/>
+        <attr name="secondPathColor" format="color"/>
+        <attr name="moveSpeed" format="float"/>
+        <attr name="ballSpeed" format="float"/>
+        <attr name="simplingSize" format="integer"/>
+        <attr name="amplitude" format="dimension"/>
+        <attr name="showBalls" format="boolean"/>
+    </declare-styleable>
+</resources>
